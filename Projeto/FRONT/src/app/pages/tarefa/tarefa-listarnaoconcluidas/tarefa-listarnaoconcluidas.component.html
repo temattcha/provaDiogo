@@ -1,0 +1,12 @@
+<table>
+    <tr>
+        <th>titulo</th>
+        <th>descrição</th>
+        <th>status</th>
+    </tr>
+    <tr *ngFor="let t of tarefas">
+        <td *ngIf="t.status == 'Concluída'">{{ t.titulo }}</td>
+        <td *ngIf="t.status == 'Concluída'">{{ t.descricao }}</td>
+        <td *ngIf="t.status == 'Concluída'">{{ t.status }}</td>
+    </tr>
+</table>

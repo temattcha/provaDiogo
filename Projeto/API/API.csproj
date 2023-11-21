@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.25">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.25" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="FRONT/src/app/pages/" />
+    <Folder Include="FRONT/src/app/pages/tarefa/" />
+    <Folder Include="FRONT/src/app/pages/tarefa/tarefa-alterar/" />
+    <Folder Include="FRONT/src/app/pages/tarefa/tarefa-cadastrar/" />
+    <Folder Include="FRONT/src/app/pages/tarefa/tarefa-listar-concluidas/" />
+    <Folder Include="FRONT/src/app/pages/tarefa/tarefa-listar-naoconcluidas/" />
+    <Folder Include="FRONT/src/app/pages/tarefa/tarefa-listar/" />
+  </ItemGroup>
+
+</Project>
